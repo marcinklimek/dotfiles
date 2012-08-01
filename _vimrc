@@ -497,3 +497,6 @@ endif
 "hi PmenuSel ctermbg=8 guibg=DarkGrey
 "hi PmenuSbar ctermbg=7 guibg=Grey
 "hi PmenuThumb cterm=reverse gui=reverse
+"
+"Relative line numbers
+set rnu
