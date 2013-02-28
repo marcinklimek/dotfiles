@@ -6,40 +6,50 @@
 # you quit GIMP.  If this file isn't found, defaults are used.
 
 (session-info "dock" "dock"
-    (position 806 49)
-    (size 210 820)
+    (position 2973 137)
+    (size 305 452)
     (open-on-exit)
     (aux-info
-        (show-image-menu "true")
+        (show-image-menu "false")
         (follow-active-image "true"))
     (dock
         (book
             (current-page 0)
             (dockable "gimp-layer-list"
                 (tab-style icon)
-                (preview-size 32))
-            (dockable "gimp-channel-list"
-                (tab-style icon)
-                (preview-size 32))
-            (dockable "gimp-vectors-list"
-                (tab-style icon)
-                (preview-size 32))
-            (dockable "gimp-undo-history"
-                (tab-style icon)))
-        (book
-            (position 420)
-            (current-page 0)
-            (dockable "gimp-brush-grid"
-                (tab-style preview))
-            (dockable "gimp-pattern-grid"
-                (tab-style preview))
-            (dockable "gimp-gradient-list"
-                (tab-style preview)))))
+                (preview-size 32)))))
 (session-info "toplevel" "gimp-image-new-dialog"
     (position 320 172))
+(session-info "toplevel" "gimp-file-open-dialog"
+    (position 1987 209)
+    (size 852 630))
+(session-info "toplevel" "gimp-file-save-dialog"
+    (position 1985 235)
+    (size 852 630))
+(session-info "toplevel" "gimp-toolbox-color-dialog"
+    (position 988 514))
+(session-info "toplevel" "gimp-scale-tool-dialog"
+    (position 556 437))
+(session-info "toplevel" "gimp-text-tool-dialog"
+    (position 1977 233)
+    (size 226 179))
+(session-info "toplevel" "gimp-color-balance-tool-dialog"
+    (position 604 369))
+(session-info "toplevel" "gimp-brightness-contrast-tool-dialog"
+    (position 969 350))
+(session-info "toplevel" "gimp-hue-saturation-tool-dialog"
+    (position 929 224))
+(session-info "toplevel" "gimp-curves-tool-dialog"
+    (position 714 315)
+    (size 426 514))
+(session-info "toplevel" "gimp-rotate-tool-dialog"
+    (position 2225 376))
+(session-info "toplevel" "gimp-levels-tool-dialog"
+    (position 2226 237)
+    (size 426 531))
 (session-info "toolbox" "dock"
-    (position 4 56)
-    (size 160 820)
+    (position 1627 103)
+    (size 192 820)
     (open-on-exit)
     (dock
         (book
@@ -47,9 +57,9 @@
             (dockable "gimp-tool-options"
                 (tab-style icon)))))
 (session-info "display" "gimp-empty-image-window"
-    (position 236 207)
-    (size 551 185))
+    (position 1600 0)
+    (size 1678 1028))
 
-(last-tip-shown 1)
+(last-tip-shown 50)
 
 # end of sessionrc

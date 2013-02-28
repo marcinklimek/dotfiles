@@ -14,5 +14,4 @@ alias gitrm='git rm -r --cached'
 alias work='cd ~/work'
 alias wspace='cd ~/workspace'
 alias apt='sudo aptitude'
-alias swork='ln -s -f `pwd`/" ~/work'
-
+alias swork='rm ~/work; ln -s -f `pwd` ~/work'
